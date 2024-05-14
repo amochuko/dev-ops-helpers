@@ -1,0 +1,28 @@
+{
+  "name": "dev-ops-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "ochuko awhe",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "typescript": "^5.4.5"
+  }
+}
