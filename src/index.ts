@@ -1,1 +1,1 @@
-console.log("hello world");
+export { isValidURL } from "./utils/validations";
