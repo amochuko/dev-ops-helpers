@@ -8,7 +8,4 @@ function isValidURL(url: string) {
   return urlRegex.test(url);
 }
 
-
-export {
-    isValidURL
-}
+export { isValidURL };
